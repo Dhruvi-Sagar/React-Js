@@ -1,0 +1,51 @@
+/* App Container */
+.app-container {
+  min-height: 100vh;
+  padding: 0;
+}
+
+/* Product Card */
+.product-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Image */
+.product-card-img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-card-img {
+  transform: scale(1.05);
+}
+
+/* Card Title */
+.card-title {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+/* Rating and Discount */
+.text-success {
+  font-weight: bold;
+}
+
+.text-danger {
+  font-weight: bold;
+}
