@@ -16,7 +16,18 @@ import Login from './Login';
 function App() {
   return (
     <>
-      <Header /><Login/><Banner /> <Categories /><Popular /><Card /> <Services /><Great /><Organic /> <Testimonial /> <News /><Footer />
+      <Header />
+      <Login/>
+      <Banner /> 
+      <Categories />
+      <Popular />
+      <Card />
+       <Services />
+       <Great />
+       <Organic /> 
+       <Testimonial /> 
+       <News />
+       <Footer />
     </>
 
   )
