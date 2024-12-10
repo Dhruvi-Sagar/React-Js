@@ -1,0 +1,22 @@
+div{
+    margin-top: 150px;
+
+}
+
+h1
+{
+    color:  #3e6f6c;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button
+{
+    background-color: #588a87b4;
+    border: 0;
+    padding:15px 40px;
+    border-radius: 15px;
+    color: #0000007e;
+    font-size: 22px;    
+    font-weight: 600;
+}
