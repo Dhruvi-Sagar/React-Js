@@ -1,0 +1,188 @@
+/* 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #a6aebe, #9daaad);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Glassmorphic Card Styling */
+.card {
+  background: rgba(104, 129, 176, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(151, 156, 214, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(175, 145, 145, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  color: #e0e0e0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading Styling */
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+/* Input Field Styling with Neumorphism */
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  background: #2e2e2e;
+  color: #ffffff;
+  font-size: 16px;
+  box-shadow: inset 5px 5px 10px #1a1a1a, inset -5px -5px 10px #404040;
+  outline: none;
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+input:focus {
+  background: #3a3a3a;
+  box-shadow: inset 3px 3px 6px #aba4a4, inset -3px -3px 6px #505050;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 6px 20px rgba(186, 200, 186, 0.4);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+ 
+  box-shadow: 0 8px 25px rgba(151, 202, 152, 0.6);
+}
+
+/* Paragraph and Link Styling */
+p {
+  margin-top: 20px;
+  color: #1e2126;
+  font-size: 15px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+ */
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #a6aebe, #9daaad);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Glassmorphic Card Styling */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(151, 156, 214, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(175, 145, 145, 0.2);
+  text-align: center;
+  width: auto;
+  max-width: 450px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+input {
+  width: calc(100% - 30px);
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  background: #2e2e2e;
+  color: #ffffff;
+}
+
+input::placeholder {
+   color: #b3b3b3; /* Placeholder color */
+}
+
+input:focus {
+   background: #3a3a3a;
+   outline: none;
+}
+
+button {
+   width: calc(100% - 30px);
+   padding: 15px;
+   background: linear-gradient(135deg, #4CAF50, #45a049);
+   color: #ffffff;
+   border-radius: 12px;
+   cursor: pointer;
+   font-size: 18px;
+   transition: transform .2s; /* Scale effect */
+}
+
+button:hover {
+   transform: scale(1.05); /* Scale up on hover */
+}
+
+.error-message {
+   color: red; 
+   margin-bottom: 20px; 
+}
+
+p {
+   margin-top: 20px; 
+   color: #1e2126; 
+}
+
+a {
+   color: #007BFF; 
+   text-decoration: none; 
+}
+
+a:hover {
+   color: #0056b3; 
+}
+
